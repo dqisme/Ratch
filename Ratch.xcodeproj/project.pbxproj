@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0123F090265FF2E400DA9C34 /* RatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0123F08F265FF2E400DA9C34 /* RatchApp.swift */; };
+		0123F092265FF2E400DA9C34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0123F091265FF2E400DA9C34 /* ContentView.swift */; };
+		0123F094265FF2E800DA9C34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0123F093265FF2E800DA9C34 /* Assets.xcassets */; };
+		0123F097265FF2E800DA9C34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0123F096265FF2E800DA9C34 /* Preview Assets.xcassets */; };
+		0123F0A3265FF2E900DA9C34 /* RatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0123F0A2265FF2E900DA9C34 /* RatchTests.swift */; };
+		0123F0AE265FF2E900DA9C34 /* RatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0123F0AD265FF2E900DA9C34 /* RatchUITests.swift */; };
+		01EB3A03266E7A5E009A722B /* PDFContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EB3A02266E7A5E009A722B /* PDFContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0123F09F265FF2E900DA9C34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0123F084265FF2E400DA9C34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0123F08B265FF2E400DA9C34;
+			remoteInfo = Ratch;
+		};
+		0123F0AA265FF2E900DA9C34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0123F084265FF2E400DA9C34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0123F08B265FF2E400DA9C34;
+			remoteInfo = Ratch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0123F08C265FF2E400DA9C34 /* Ratch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ratch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0123F08F265FF2E400DA9C34 /* RatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatchApp.swift; sourceTree = "<group>"; };
+		0123F091265FF2E400DA9C34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0123F093265FF2E800DA9C34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0123F096265FF2E800DA9C34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0123F098265FF2E800DA9C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0123F099265FF2E900DA9C34 /* Ratch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ratch.entitlements; sourceTree = "<group>"; };
+		0123F09E265FF2E900DA9C34 /* RatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0123F0A2265FF2E900DA9C34 /* RatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatchTests.swift; sourceTree = "<group>"; };
+		0123F0A4265FF2E900DA9C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0123F0A9265FF2E900DA9C34 /* RatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0123F0AD265FF2E900DA9C34 /* RatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatchUITests.swift; sourceTree = "<group>"; };
+		0123F0AF265FF2E900DA9C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01EB3A02266E7A5E009A722B /* PDFContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0123F089265FF2E400DA9C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0123F09B265FF2E900DA9C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0123F0A6265FF2E900DA9C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0123F083265FF2E400DA9C34 = {
+			isa = PBXGroup;
+			children = (
+				0123F08E265FF2E400DA9C34 /* Ratch */,
+				0123F0A1265FF2E900DA9C34 /* RatchTests */,
+				0123F0AC265FF2E900DA9C34 /* RatchUITests */,
+				0123F08D265FF2E400DA9C34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0123F08D265FF2E400DA9C34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0123F08C265FF2E400DA9C34 /* Ratch.app */,
+				0123F09E265FF2E900DA9C34 /* RatchTests.xctest */,
+				0123F0A9265FF2E900DA9C34 /* RatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0123F08E265FF2E400DA9C34 /* Ratch */ = {
+			isa = PBXGroup;
+			children = (
+				0123F08F265FF2E400DA9C34 /* RatchApp.swift */,
+				0123F091265FF2E400DA9C34 /* ContentView.swift */,
+				01EB3A02266E7A5E009A722B /* PDFContentView.swift */,
+				0123F093265FF2E800DA9C34 /* Assets.xcassets */,
+				0123F098265FF2E800DA9C34 /* Info.plist */,
+				0123F099265FF2E900DA9C34 /* Ratch.entitlements */,
+				0123F095265FF2E800DA9C34 /* Preview Content */,
+			);
+			path = Ratch;
+			sourceTree = "<group>";
+		};
+		0123F095265FF2E800DA9C34 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0123F096265FF2E800DA9C34 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0123F0A1265FF2E900DA9C34 /* RatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				0123F0A2265FF2E900DA9C34 /* RatchTests.swift */,
+				0123F0A4265FF2E900DA9C34 /* Info.plist */,
+			);
+			path = RatchTests;
+			sourceTree = "<group>";
+		};
+		0123F0AC265FF2E900DA9C34 /* RatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0123F0AD265FF2E900DA9C34 /* RatchUITests.swift */,
+				0123F0AF265FF2E900DA9C34 /* Info.plist */,
+			);
+			path = RatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0123F08B265FF2E400DA9C34 /* Ratch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0123F0B2265FF2E900DA9C34 /* Build configuration list for PBXNativeTarget "Ratch" */;
+			buildPhases = (
+				0123F088265FF2E400DA9C34 /* Sources */,
+				0123F089265FF2E400DA9C34 /* Frameworks */,
+				0123F08A265FF2E400DA9C34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ratch;
+			productName = Ratch;
+			productReference = 0123F08C265FF2E400DA9C34 /* Ratch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0123F09D265FF2E900DA9C34 /* RatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0123F0B5265FF2E900DA9C34 /* Build configuration list for PBXNativeTarget "RatchTests" */;
+			buildPhases = (
+				0123F09A265FF2E900DA9C34 /* Sources */,
+				0123F09B265FF2E900DA9C34 /* Frameworks */,
+				0123F09C265FF2E900DA9C34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0123F0A0265FF2E900DA9C34 /* PBXTargetDependency */,
+			);
+			name = RatchTests;
+			productName = RatchTests;
+			productReference = 0123F09E265FF2E900DA9C34 /* RatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0123F0A8265FF2E900DA9C34 /* RatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0123F0B8265FF2E900DA9C34 /* Build configuration list for PBXNativeTarget "RatchUITests" */;
+			buildPhases = (
+				0123F0A5265FF2E900DA9C34 /* Sources */,
+				0123F0A6265FF2E900DA9C34 /* Frameworks */,
+				0123F0A7265FF2E900DA9C34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0123F0AB265FF2E900DA9C34 /* PBXTargetDependency */,
+			);
+			name = RatchUITests;
+			productName = RatchUITests;
+			productReference = 0123F0A9265FF2E900DA9C34 /* RatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0123F084265FF2E400DA9C34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					0123F08B265FF2E400DA9C34 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					0123F09D265FF2E900DA9C34 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 0123F08B265FF2E400DA9C34;
+					};
+					0123F0A8265FF2E900DA9C34 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 0123F08B265FF2E400DA9C34;
+					};
+				};
+			};
+			buildConfigurationList = 0123F087265FF2E400DA9C34 /* Build configuration list for PBXProject "Ratch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0123F083265FF2E400DA9C34;
+			productRefGroup = 0123F08D265FF2E400DA9C34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0123F08B265FF2E400DA9C34 /* Ratch */,
+				0123F09D265FF2E900DA9C34 /* RatchTests */,
+				0123F0A8265FF2E900DA9C34 /* RatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0123F08A265FF2E400DA9C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0123F097265FF2E800DA9C34 /* Preview Assets.xcassets in Resources */,
+				0123F094265FF2E800DA9C34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0123F09C265FF2E900DA9C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0123F0A7265FF2E900DA9C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0123F088265FF2E400DA9C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01EB3A03266E7A5E009A722B /* PDFContentView.swift in Sources */,
+				0123F092265FF2E400DA9C34 /* ContentView.swift in Sources */,
+				0123F090265FF2E400DA9C34 /* RatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0123F09A265FF2E900DA9C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0123F0A3265FF2E900DA9C34 /* RatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0123F0A5265FF2E900DA9C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0123F0AE265FF2E900DA9C34 /* RatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0123F0A0265FF2E900DA9C34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0123F08B265FF2E400DA9C34 /* Ratch */;
+			targetProxy = 0123F09F265FF2E900DA9C34 /* PBXContainerItemProxy */;
+		};
+		0123F0AB265FF2E900DA9C34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0123F08B265FF2E400DA9C34 /* Ratch */;
+			targetProxy = 0123F0AA265FF2E900DA9C34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0123F0B0265FF2E900DA9C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0123F0B1265FF2E900DA9C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0123F0B3265FF2E900DA9C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ratch/Ratch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Ratch/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Ratch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dq.Ratch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0123F0B4265FF2E900DA9C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ratch/Ratch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Ratch/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Ratch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dq.Ratch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0123F0B6265FF2E900DA9C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dq.RatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ratch.app/Contents/MacOS/Ratch";
+			};
+			name = Debug;
+		};
+		0123F0B7265FF2E900DA9C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dq.RatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ratch.app/Contents/MacOS/Ratch";
+			};
+			name = Release;
+		};
+		0123F0B9265FF2E900DA9C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dq.RatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Ratch;
+			};
+			name = Debug;
+		};
+		0123F0BA265FF2E900DA9C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dq.RatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Ratch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0123F087265FF2E400DA9C34 /* Build configuration list for PBXProject "Ratch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0123F0B0265FF2E900DA9C34 /* Debug */,
+				0123F0B1265FF2E900DA9C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0123F0B2265FF2E900DA9C34 /* Build configuration list for PBXNativeTarget "Ratch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0123F0B3265FF2E900DA9C34 /* Debug */,
+				0123F0B4265FF2E900DA9C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0123F0B5265FF2E900DA9C34 /* Build configuration list for PBXNativeTarget "RatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0123F0B6265FF2E900DA9C34 /* Debug */,
+				0123F0B7265FF2E900DA9C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0123F0B8265FF2E900DA9C34 /* Build configuration list for PBXNativeTarget "RatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0123F0B9265FF2E900DA9C34 /* Debug */,
+				0123F0BA265FF2E900DA9C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0123F084265FF2E400DA9C34 /* Project object */;
+}
