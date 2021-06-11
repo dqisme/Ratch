@@ -1,0 +1,5 @@
+build/
+.dmg/Ratch.app/
+!.dmg/.DS_Store
+!.dmg/Applications
+Ratch.dmg

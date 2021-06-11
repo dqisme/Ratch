@@ -145,6 +145,7 @@
 				0123F088265FF2E400DA9C34 /* Sources */,
 				0123F089265FF2E400DA9C34 /* Frameworks */,
 				0123F08A265FF2E400DA9C34 /* Resources */,
+				012CD5332672E42A0096D2BD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -258,6 +259,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		012CD5332672E42A0096D2BD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncp -fR build/Release/Ratch.app .dmg/Ratch.app\nhdiutil create -ov -srcfolder .dmg -format UDZO -imagekey zlib-level=9 -volname \"Ratch\" Ratch.dmg\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0123F088265FF2E400DA9C34 /* Sources */ = {
