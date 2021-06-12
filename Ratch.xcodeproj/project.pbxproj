@@ -276,7 +276,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncp -fR build/Release/Ratch.app .dmg/Ratch.app\nhdiutil create -ov -srcfolder .dmg -format UDZO -imagekey zlib-level=9 -volname \"Ratch\" Ratch.dmg\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nrm -rf .dmg/Ratch.app\ncp -R build/Release/Ratch.app .dmg/Ratch.app\nhdiutil create -ov -srcfolder .dmg -format UDZO -imagekey zlib-level=9 -volname \"Ratch\" Ratch.dmg\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
