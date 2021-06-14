@@ -1,3 +1,28 @@
 ---
 ---
 
+@font-face {
+  font-family: "SignPainter-HouseScriptSemiBold";
+  src: url("../fonts/SignPainter-HouseScript-SemiBold.woff2");
+}
+
+body {
+  margin: 0;
+  overscroll-behavior: none;
+}
+
+.page-header {
+  padding-top: 100px;
+  height: 100vh;
+  box-sizing: border-box;
+  text-align: center;
+  background: linear-gradient(0deg, #992222, #AA3322);
+}
+
+.project-name {
+  font-family: "SignPainter-HouseScriptSemiBold";
+  font-size: 128px;
+  margin: 0;
+  color: #FFFFFF;
+  letter-spacing: 0.056em;
+}
