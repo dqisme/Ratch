@@ -1,6 +1,6 @@
 Ratch is a note-friendly PDF viewer/editor
 
-![Screenshot](./screenshot.png)
+![Screenshot](./docs/assets/images/screenshot.png)
 
 ## Getting Started
 
