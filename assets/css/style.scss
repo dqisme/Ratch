@@ -27,14 +27,15 @@ body {
 
 .project-name {
   font-family: "SignPainter-HouseScriptSemiBold";
-  font-size: 8rem;
   margin: 0;
+  font-size: 8rem;
+  font-weight: normal;
   letter-spacing: 0.056em;
 }
 
 .project-tagline {
   margin: -2rem 0 2rem;
-  font-weight: normal;
   font-size: 1.25rem;
+  font-weight: normal;
   opacity: 0.7;
 }
