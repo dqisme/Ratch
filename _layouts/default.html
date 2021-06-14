@@ -3,10 +3,18 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#9A382A">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{site.baseurl}}/assets/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{site.baseurl}}/assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{site.baseurl}}/assets/images/favicon-16x16.png">
-    <link rel="manifest" href="{{site.baseurl}}/assets/images/site.webmanifest">
-    <link rel="shortcut icon" href="{{site.baseurl}}/assets/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/images/favicon-16x16.png">
+    <link rel="manifest" href="{{ site.baseurl }}/assets/images/site.webmanifest">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
   </head>
+  <body>
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+      <a href="{{ site.github.repository_url }}/releases/latest" class="btn">Download for MacOS</a>
+    </header>
+  </body>
 </html>
