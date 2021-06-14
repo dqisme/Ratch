@@ -1,0 +1,59 @@
+---
+---
+
+@font-face {
+  font-family: "SignPainter-HouseScriptSemiBold";
+  src: url("../fonts/SignPainter-HouseScript-SemiBold.woff2");
+  font-display: block;
+}
+
+body {
+  margin: 0;
+  overscroll-behavior: none;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.page-header {
+  padding-top: 5rem;
+  height: 100vh;
+  box-sizing: border-box;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #9A382A;
+  background-image: linear-gradient(0deg, #992222, #AA3322);
+}
+
+.project-name {
+  font-family: "SignPainter-HouseScriptSemiBold";
+  margin: 0;
+  font-size: 8rem;
+  font-weight: normal;
+  letter-spacing: 0.056em;
+}
+
+.project-tagline {
+  margin: -2rem 0 2rem;
+  font-size: 1.25rem;
+  font-weight: normal;
+  opacity: 0.7;
+}
+
+.btn {
+  padding: 0.75rem 1rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: rgba(255,255,255,0.7);
+  background-color: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.2);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+  text-decoration: none;
+}
+
+.btn+.btn {
+  margin-left: 1rem;
+}
